@@ -1,0 +1,331 @@
+2.3153 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.8201 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1360, 768]. Using actual size
+13.5972 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001BAC4977BA8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001BAC4556898>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1360,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.5973 	EXP 	window1: recordFrameIntervals = False
+13.7630 	EXP 	window1: recordFrameIntervals = True
+13.9465 	EXP 	window1: recordFrameIntervals = False
+14.6113 	EXP 	Created instr1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr1', opacity=1.0, ori=0, pos=array([0.  , 0.15]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.6379 	EXP 	Created l1ex = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='L1.png', interpolate=True, mask=None, maskParams=None, name='l1ex', opacity=1.0, ori=0.0, pos=array([-0.3 , -0.15]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.6491 	EXP 	Created l2ex = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='L2.png', interpolate=True, mask=None, maskParams=None, name='l2ex', opacity=1.0, ori=0.0, pos=array([-0.1 , -0.15]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.6602 	EXP 	Created t1ex = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='T1.png', interpolate=True, mask=None, maskParams=None, name='t1ex', opacity=1.0, ori=0.0, pos=array([ 0.1 , -0.15]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.6728 	EXP 	Created tTex = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='TT.png', interpolate=True, mask=None, maskParams=None, name='tTex', opacity=1.0, ori=0.0, pos=array([ 0.3 , -0.15]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.6792 	EXP 	Created fix1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+14.6826 	EXP 	Created trial1Fix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial1Fix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+14.6927 	EXP 	Created trial1L11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='L1.png', interpolate=True, mask=None, maskParams=None, name='trial1L11', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.7015 	EXP 	Created trial1L12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='L1.png', interpolate=True, mask=None, maskParams=None, name='trial1L12', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.7098 	EXP 	Created trial1L21 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='L2.png', interpolate=True, mask=None, maskParams=None, name='trial1L21', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.7183 	EXP 	Created trial1L22 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='L2.png', interpolate=True, mask=None, maskParams=None, name='trial1L22', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.7277 	EXP 	Created trial1T11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='T1.png', interpolate=True, mask=None, maskParams=None, name='trial1T11', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.7376 	EXP 	Created trial1T12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='T1.png', interpolate=True, mask=None, maskParams=None, name='trial1T12', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.7475 	EXP 	Created trial1TT = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='TT.png', interpolate=True, mask=None, maskParams=None, name='trial1TT', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.7784 	EXP 	Created breakText1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='breakText1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.7816 	EXP 	Created fix2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+14.7849 	EXP 	Created trial2Fix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial2Fix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+14.7936 	EXP 	Created trial2L11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='L1.png', interpolate=True, mask=None, maskParams=None, name='trial2L11', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.8018 	EXP 	Created trial2L12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='L1.png', interpolate=True, mask=None, maskParams=None, name='trial2L12', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.8100 	EXP 	Created trial2L21 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='L2.png', interpolate=True, mask=None, maskParams=None, name='trial2L21', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.8186 	EXP 	Created trial2L22 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='L2.png', interpolate=True, mask=None, maskParams=None, name='trial2L22', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.8280 	EXP 	Created trial2T11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='T1.png', interpolate=True, mask=None, maskParams=None, name='trial2T11', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.8380 	EXP 	Created trial2T12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='T1.png', interpolate=True, mask=None, maskParams=None, name='trial2T12', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.8481 	EXP 	Created trial2TT = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='TT.png', interpolate=True, mask=None, maskParams=None, name='trial2TT', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.8575 	EXP 	Created breakText2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='breakText2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8608 	EXP 	Created fix3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+14.8638 	EXP 	Created trial3Fix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial3Fix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+14.8722 	EXP 	Created Trial3L11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='L1.png', interpolate=True, mask=None, maskParams=None, name='Trial3L11', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.8803 	EXP 	Created Trial3L12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='L1.png', interpolate=True, mask=None, maskParams=None, name='Trial3L12', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.8887 	EXP 	Created Trial3L21 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='L2.png', interpolate=True, mask=None, maskParams=None, name='Trial3L21', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.8975 	EXP 	Created Trial3L22 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='L2.png', interpolate=True, mask=None, maskParams=None, name='Trial3L22', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.9077 	EXP 	Created Trial3T11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='T1.png', interpolate=True, mask=None, maskParams=None, name='Trial3T11', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.9174 	EXP 	Created Trial3T12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='T1.png', interpolate=True, mask=None, maskParams=None, name='Trial3T12', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.9272 	EXP 	Created Trial3TT = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='TT.png', interpolate=True, mask=None, maskParams=None, name='Trial3TT', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+14.9363 	EXP 	Created thanks = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thanks', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.0049 	EXP 	instr1: autoDraw = True
+15.0049 	EXP 	l1ex: autoDraw = True
+15.0049 	EXP 	l2ex: autoDraw = True
+15.0049 	EXP 	t1ex: autoDraw = True
+15.0049 	EXP 	tTex: autoDraw = True
+15.3857 	DATA 	Keypress: space
+15.4136 	EXP 	instr1: autoDraw = False
+15.4136 	EXP 	l1ex: autoDraw = False
+15.4136 	EXP 	l2ex: autoDraw = False
+15.4136 	EXP 	t1ex: autoDraw = False
+15.4136 	EXP 	tTex: autoDraw = False
+15.4136 	EXP 	fix1: autoDraw = True
+16.4896 	EXP 	Imported vSearchCond1.xlsx as conditions, 20 conditions, 15 params
+16.4911 	EXP 	Created sequence: sequential, trialTypes=20, nReps=1, seed=None
+16.4920 	EXP 	New trial (rep=0, index=0): OrderedDict([('loc1', 0.4), ('loc2', 0.0), ('loc3', -0.2), ('loc4', 0.2), ('loc5', 0.0), ('loc6', 0.0), ('loc7', -0.4), ('loc8', -0.2), ('loc9', 0.4), ('loc10', 0.2), ('loc11', 0.0), ('loc12', 0.2), ('loc13', None), ('loc14', None), ('corrAns', None)])
+16.5073 	EXP 	fix1: autoDraw = False
+16.5073 	EXP 	trial1L11: pos = array([0.4, 0. ])
+16.5073 	EXP 	trial1L12: pos = array([-0.2,  0.2])
+16.5073 	EXP 	trial1L21: pos = array([0., 0.])
+16.5073 	EXP 	trial1L22: pos = array([-0.4, -0.2])
+16.5073 	EXP 	trial1T11: pos = array([0.4, 0.2])
+16.5073 	EXP 	trial1T12: pos = array([0. , 0.2])
+16.5073 	EXP 	trial1TT: pos = array([nan, nan])
+16.5073 	EXP 	trial1L11: autoDraw = True
+16.5073 	EXP 	trial1L12: autoDraw = True
+16.5073 	EXP 	trial1L21: autoDraw = True
+16.5073 	EXP 	trial1L22: autoDraw = True
+16.5073 	EXP 	trial1T11: autoDraw = True
+16.5073 	EXP 	trial1T12: autoDraw = True
+16.5073 	EXP 	trial1TT: autoDraw = True
+19.4947 	EXP 	trial1Fix: autoDraw = True
+19.5113 	EXP 	trial1L11: autoDraw = False
+19.5113 	EXP 	trial1L12: autoDraw = False
+19.5113 	EXP 	trial1L21: autoDraw = False
+19.5113 	EXP 	trial1L22: autoDraw = False
+19.5113 	EXP 	trial1T11: autoDraw = False
+19.5113 	EXP 	trial1T12: autoDraw = False
+19.5113 	EXP 	trial1TT: autoDraw = False
+20.4189 	EXP 	New trial (rep=0, index=1): OrderedDict([('loc1', 0.4), ('loc2', -0.2), ('loc3', 0.4), ('loc4', 0.0), ('loc5', 0.2), ('loc6', 0.2), ('loc7', None), ('loc8', None), ('loc9', 0.0), ('loc10', 0.0), ('loc11', -0.2), ('loc12', 0.2), ('loc13', 0.4), ('loc14', 0.2), ('corrAns', 'space')])
+20.4317 	EXP 	trial1Fix: autoDraw = False
+20.4317 	EXP 	trial1L11: autoDraw = False
+20.4317 	EXP 	trial1L12: autoDraw = False
+20.4317 	EXP 	trial1L21: autoDraw = False
+20.4317 	EXP 	trial1L22: autoDraw = False
+20.4317 	EXP 	trial1T11: autoDraw = False
+20.4317 	EXP 	trial1T12: autoDraw = False
+20.4317 	EXP 	trial1TT: autoDraw = False
+20.4317 	EXP 	trial1L11: pos = array([ 0.4, -0.2])
+20.4317 	EXP 	trial1L12: pos = array([0.4, 0. ])
+20.4317 	EXP 	trial1L21: pos = array([0.2, 0.2])
+20.4317 	EXP 	trial1L22: pos = array([nan, nan])
+20.4317 	EXP 	trial1T11: pos = array([0., 0.])
+20.4317 	EXP 	trial1T12: pos = array([-0.2,  0.2])
+20.4317 	EXP 	trial1TT: pos = array([0.4, 0.2])
+20.4317 	EXP 	trial1L11: autoDraw = True
+20.4317 	EXP 	trial1L12: autoDraw = True
+20.4317 	EXP 	trial1L21: autoDraw = True
+20.4317 	EXP 	trial1L22: autoDraw = True
+20.4317 	EXP 	trial1T11: autoDraw = True
+20.4317 	EXP 	trial1T12: autoDraw = True
+20.4317 	EXP 	trial1TT: autoDraw = True
+22.2827 	DATA 	Keypress: space
+23.4271 	EXP 	trial1Fix: autoDraw = True
+23.4438 	EXP 	trial1L11: autoDraw = False
+23.4438 	EXP 	trial1L12: autoDraw = False
+23.4438 	EXP 	trial1L21: autoDraw = False
+23.4438 	EXP 	trial1L22: autoDraw = False
+23.4438 	EXP 	trial1T11: autoDraw = False
+23.4438 	EXP 	trial1T12: autoDraw = False
+23.4438 	EXP 	trial1TT: autoDraw = False
+24.4141 	EXP 	New trial (rep=0, index=2): OrderedDict([('loc1', 0.0), ('loc2', 0.2), ('loc3', 0.4), ('loc4', -0.2), ('loc5', -0.4), ('loc6', -0.2), ('loc7', 0.0), ('loc8', 0.0), ('loc9', 0.2), ('loc10', 0.2), ('loc11', None), ('loc12', None), ('loc13', 0.2), ('loc14', -0.2), ('corrAns', 'space')])
+24.4280 	EXP 	trial1Fix: autoDraw = False
+24.4280 	EXP 	trial1L11: autoDraw = False
+24.4280 	EXP 	trial1L12: autoDraw = False
+24.4280 	EXP 	trial1L21: autoDraw = False
+24.4280 	EXP 	trial1L22: autoDraw = False
+24.4280 	EXP 	trial1T11: autoDraw = False
+24.4280 	EXP 	trial1T12: autoDraw = False
+24.4280 	EXP 	trial1TT: autoDraw = False
+24.4280 	EXP 	trial1L11: pos = array([0. , 0.2])
+24.4280 	EXP 	trial1L12: pos = array([ 0.4, -0.2])
+24.4280 	EXP 	trial1L21: pos = array([-0.4, -0.2])
+24.4280 	EXP 	trial1L22: pos = array([0., 0.])
+24.4280 	EXP 	trial1T11: pos = array([0.2, 0.2])
+24.4280 	EXP 	trial1T12: pos = array([nan, nan])
+24.4280 	EXP 	trial1TT: pos = array([ 0.2, -0.2])
+24.4280 	EXP 	trial1L11: autoDraw = True
+24.4280 	EXP 	trial1L12: autoDraw = True
+24.4280 	EXP 	trial1L21: autoDraw = True
+24.4280 	EXP 	trial1L22: autoDraw = True
+24.4280 	EXP 	trial1T11: autoDraw = True
+24.4280 	EXP 	trial1T12: autoDraw = True
+24.4280 	EXP 	trial1TT: autoDraw = True
+26.6490 	DATA 	Keypress: space
+27.4094 	EXP 	trial1Fix: autoDraw = True
+27.4426 	EXP 	trial1L11: autoDraw = False
+27.4426 	EXP 	trial1L12: autoDraw = False
+27.4426 	EXP 	trial1L21: autoDraw = False
+27.4426 	EXP 	trial1L22: autoDraw = False
+27.4426 	EXP 	trial1T11: autoDraw = False
+27.4426 	EXP 	trial1T12: autoDraw = False
+27.4426 	EXP 	trial1TT: autoDraw = False
+28.4091 	EXP 	trial1Fix: autoDraw = False
+28.4131 	EXP 	New trial (rep=0, index=3): OrderedDict([('loc1', -0.2), ('loc2', 0.2), ('loc3', 0.4), ('loc4', -0.2), ('loc5', 0.0), ('loc6', 0.2), ('loc7', 0.0), ('loc8', 0.2), ('loc9', -0.4), ('loc10', -0.2), ('loc11', 0.0), ('loc12', 0.0), ('loc13', None), ('loc14', None), ('corrAns', None)])
+28.4269 	EXP 	trial1Fix: autoDraw = False
+28.4269 	EXP 	trial1L11: autoDraw = False
+28.4269 	EXP 	trial1L12: autoDraw = False
+28.4269 	EXP 	trial1L21: autoDraw = False
+28.4269 	EXP 	trial1L22: autoDraw = False
+28.4269 	EXP 	trial1T11: autoDraw = False
+28.4269 	EXP 	trial1T12: autoDraw = False
+28.4269 	EXP 	trial1TT: autoDraw = False
+28.4269 	EXP 	trial1L11: pos = array([-0.2,  0.2])
+28.4269 	EXP 	trial1L12: pos = array([ 0.4, -0.2])
+28.4269 	EXP 	trial1L21: pos = array([0. , 0.2])
+28.4269 	EXP 	trial1L22: pos = array([0. , 0.2])
+28.4269 	EXP 	trial1T11: pos = array([-0.4, -0.2])
+28.4269 	EXP 	trial1T12: pos = array([0., 0.])
+28.4269 	EXP 	trial1TT: pos = array([nan, nan])
+28.4269 	EXP 	trial1L11: autoDraw = True
+28.4269 	EXP 	trial1L12: autoDraw = True
+28.4269 	EXP 	trial1L21: autoDraw = True
+28.4269 	EXP 	trial1L22: autoDraw = True
+28.4269 	EXP 	trial1T11: autoDraw = True
+28.4269 	EXP 	trial1T12: autoDraw = True
+28.4269 	EXP 	trial1TT: autoDraw = True
+31.4084 	EXP 	trial1Fix: autoDraw = True
+31.4418 	EXP 	trial1L11: autoDraw = False
+31.4418 	EXP 	trial1L12: autoDraw = False
+31.4418 	EXP 	trial1L21: autoDraw = False
+31.4418 	EXP 	trial1L22: autoDraw = False
+31.4418 	EXP 	trial1T11: autoDraw = False
+31.4418 	EXP 	trial1T12: autoDraw = False
+31.4418 	EXP 	trial1TT: autoDraw = False
+32.4081 	EXP 	trial1Fix: autoDraw = False
+32.4119 	EXP 	New trial (rep=0, index=4): OrderedDict([('loc1', 0.4), ('loc2', -0.2), ('loc3', None), ('loc4', None), ('loc5', -0.4), ('loc6', 0.0), ('loc7', 0.4), ('loc8', 0.2), ('loc9', 0.0), ('loc10', 0.2), ('loc11', 0.2), ('loc12', -0.2), ('loc13', 0.0), ('loc14', 0.0), ('corrAns', 'space')])
+32.4260 	EXP 	trial1Fix: autoDraw = False
+32.4260 	EXP 	trial1L11: autoDraw = False
+32.4260 	EXP 	trial1L12: autoDraw = False
+32.4260 	EXP 	trial1L21: autoDraw = False
+32.4260 	EXP 	trial1L22: autoDraw = False
+32.4260 	EXP 	trial1T11: autoDraw = False
+32.4260 	EXP 	trial1T12: autoDraw = False
+32.4260 	EXP 	trial1TT: autoDraw = False
+32.4260 	EXP 	trial1L11: pos = array([ 0.4, -0.2])
+32.4260 	EXP 	trial1L12: pos = array([nan, nan])
+32.4260 	EXP 	trial1L21: pos = array([-0.4,  0. ])
+32.4260 	EXP 	trial1L22: pos = array([0.4, 0.2])
+32.4260 	EXP 	trial1T11: pos = array([0. , 0.2])
+32.4260 	EXP 	trial1T12: pos = array([ 0.2, -0.2])
+32.4260 	EXP 	trial1TT: pos = array([0., 0.])
+32.4260 	EXP 	trial1L11: autoDraw = True
+32.4260 	EXP 	trial1L12: autoDraw = True
+32.4260 	EXP 	trial1L21: autoDraw = True
+32.4260 	EXP 	trial1L22: autoDraw = True
+32.4260 	EXP 	trial1T11: autoDraw = True
+32.4260 	EXP 	trial1T12: autoDraw = True
+32.4260 	EXP 	trial1TT: autoDraw = True
+33.3299 	DATA 	Keypress: space
+35.4081 	EXP 	trial1Fix: autoDraw = True
+35.4411 	EXP 	trial1L11: autoDraw = False
+35.4411 	EXP 	trial1L12: autoDraw = False
+35.4411 	EXP 	trial1L21: autoDraw = False
+35.4411 	EXP 	trial1L22: autoDraw = False
+35.4411 	EXP 	trial1T11: autoDraw = False
+35.4411 	EXP 	trial1T12: autoDraw = False
+35.4411 	EXP 	trial1TT: autoDraw = False
+36.4103 	EXP 	New trial (rep=0, index=5): OrderedDict([('loc1', 0.4), ('loc2', 0.2), ('loc3', 0.4), ('loc4', 0.0), ('loc5', 0.2), ('loc6', 0.2), ('loc7', 0.0), ('loc8', 0.2), ('loc9', -0.4), ('loc10', -0.2), ('loc11', 0.4), ('loc12', -0.2), ('loc13', None), ('loc14', None), ('corrAns', None)])
+36.4242 	EXP 	trial1Fix: autoDraw = False
+36.4242 	EXP 	trial1L11: autoDraw = False
+36.4242 	EXP 	trial1L12: autoDraw = False
+36.4242 	EXP 	trial1L21: autoDraw = False
+36.4242 	EXP 	trial1L22: autoDraw = False
+36.4242 	EXP 	trial1T11: autoDraw = False
+36.4242 	EXP 	trial1T12: autoDraw = False
+36.4242 	EXP 	trial1TT: autoDraw = False
+36.4242 	EXP 	trial1L11: pos = array([0.4, 0.2])
+36.4242 	EXP 	trial1L12: pos = array([0.4, 0. ])
+36.4242 	EXP 	trial1L21: pos = array([0.2, 0.2])
+36.4242 	EXP 	trial1L22: pos = array([0. , 0.2])
+36.4242 	EXP 	trial1T11: pos = array([-0.4, -0.2])
+36.4242 	EXP 	trial1T12: pos = array([ 0.4, -0.2])
+36.4242 	EXP 	trial1TT: pos = array([nan, nan])
+36.4242 	EXP 	trial1L11: autoDraw = True
+36.4242 	EXP 	trial1L12: autoDraw = True
+36.4242 	EXP 	trial1L21: autoDraw = True
+36.4242 	EXP 	trial1L22: autoDraw = True
+36.4242 	EXP 	trial1T11: autoDraw = True
+36.4242 	EXP 	trial1T12: autoDraw = True
+36.4242 	EXP 	trial1TT: autoDraw = True
+39.4063 	EXP 	trial1Fix: autoDraw = True
+39.4397 	EXP 	trial1L11: autoDraw = False
+39.4397 	EXP 	trial1L12: autoDraw = False
+39.4397 	EXP 	trial1L21: autoDraw = False
+39.4397 	EXP 	trial1L22: autoDraw = False
+39.4397 	EXP 	trial1T11: autoDraw = False
+39.4397 	EXP 	trial1T12: autoDraw = False
+39.4397 	EXP 	trial1TT: autoDraw = False
+40.4061 	EXP 	trial1Fix: autoDraw = False
+40.4096 	EXP 	New trial (rep=0, index=6): OrderedDict([('loc1', None), ('loc2', None), ('loc3', -0.2), ('loc4', 0.2), ('loc5', 0.0), ('loc6', 0.2), ('loc7', 0.4), ('loc8', 0.2), ('loc9', 0.2), ('loc10', 0.2), ('loc11', 0.0), ('loc12', 0.0), ('loc13', -0.2), ('loc14', 0.0), ('corrAns', 'space')])
+40.4231 	EXP 	trial1Fix: autoDraw = False
+40.4231 	EXP 	trial1L11: autoDraw = False
+40.4231 	EXP 	trial1L12: autoDraw = False
+40.4231 	EXP 	trial1L21: autoDraw = False
+40.4231 	EXP 	trial1L22: autoDraw = False
+40.4231 	EXP 	trial1T11: autoDraw = False
+40.4231 	EXP 	trial1T12: autoDraw = False
+40.4231 	EXP 	trial1TT: autoDraw = False
+40.4231 	EXP 	trial1L11: pos = array([nan, nan])
+40.4231 	EXP 	trial1L12: pos = array([-0.2,  0.2])
+40.4231 	EXP 	trial1L21: pos = array([0. , 0.2])
+40.4231 	EXP 	trial1L22: pos = array([0.4, 0.2])
+40.4231 	EXP 	trial1T11: pos = array([0.2, 0.2])
+40.4231 	EXP 	trial1T12: pos = array([0., 0.])
+40.4231 	EXP 	trial1TT: pos = array([-0.2,  0. ])
+40.4231 	EXP 	trial1L11: autoDraw = True
+40.4231 	EXP 	trial1L12: autoDraw = True
+40.4231 	EXP 	trial1L21: autoDraw = True
+40.4231 	EXP 	trial1L22: autoDraw = True
+40.4231 	EXP 	trial1T11: autoDraw = True
+40.4231 	EXP 	trial1T12: autoDraw = True
+40.4231 	EXP 	trial1TT: autoDraw = True
+41.7276 	DATA 	Keypress: space
+43.4054 	EXP 	trial1Fix: autoDraw = True
+43.4387 	EXP 	trial1L11: autoDraw = False
+43.4387 	EXP 	trial1L12: autoDraw = False
+43.4387 	EXP 	trial1L21: autoDraw = False
+43.4387 	EXP 	trial1L22: autoDraw = False
+43.4387 	EXP 	trial1T11: autoDraw = False
+43.4387 	EXP 	trial1T12: autoDraw = False
+43.4387 	EXP 	trial1TT: autoDraw = False
+44.4051 	EXP 	trial1Fix: autoDraw = False
+44.4091 	EXP 	New trial (rep=0, index=7): OrderedDict([('loc1', -0.4), ('loc2', -0.2), ('loc3', 0.2), ('loc4', 0.2), ('loc5', 0.0), ('loc6', 0.0), ('loc7', 0.4), ('loc8', -0.2), ('loc9', None), ('loc10', None), ('loc11', -0.2), ('loc12', 0.2), ('loc13', 0.4), ('loc14', 0.2), ('corrAns', 'space')])
+44.4235 	EXP 	trial1Fix: autoDraw = False
+44.4235 	EXP 	trial1L11: autoDraw = False
+44.4235 	EXP 	trial1L12: autoDraw = False
+44.4235 	EXP 	trial1L21: autoDraw = False
+44.4235 	EXP 	trial1L22: autoDraw = False
+44.4235 	EXP 	trial1T11: autoDraw = False
+44.4235 	EXP 	trial1T12: autoDraw = False
+44.4235 	EXP 	trial1TT: autoDraw = False
+44.4235 	EXP 	trial1L11: pos = array([-0.4, -0.2])
+44.4235 	EXP 	trial1L12: pos = array([0.2, 0.2])
+44.4235 	EXP 	trial1L21: pos = array([0., 0.])
+44.4235 	EXP 	trial1L22: pos = array([ 0.4, -0.2])
+44.4235 	EXP 	trial1T11: pos = array([nan, nan])
+44.4235 	EXP 	trial1T12: pos = array([-0.2,  0.2])
+44.4235 	EXP 	trial1TT: pos = array([0.4, 0.2])
+44.4235 	EXP 	trial1L11: autoDraw = True
+44.4235 	EXP 	trial1L12: autoDraw = True
+44.4235 	EXP 	trial1L21: autoDraw = True
+44.4235 	EXP 	trial1L22: autoDraw = True
+44.4235 	EXP 	trial1T11: autoDraw = True
+44.4235 	EXP 	trial1T12: autoDraw = True
+44.4235 	EXP 	trial1TT: autoDraw = True
+45.8934 	DATA 	Keypress: space
+47.4043 	EXP 	trial1Fix: autoDraw = True
+47.4377 	EXP 	trial1L11: autoDraw = False
+47.4377 	EXP 	trial1L12: autoDraw = False
+47.4377 	EXP 	trial1L21: autoDraw = False
+47.4377 	EXP 	trial1L22: autoDraw = False
+47.4377 	EXP 	trial1T11: autoDraw = False
+47.4377 	EXP 	trial1T12: autoDraw = False
+47.4377 	EXP 	trial1TT: autoDraw = False
+48.4041 	EXP 	trial1Fix: autoDraw = False
+48.4081 	EXP 	New trial (rep=0, index=8): OrderedDict([('loc1', 0.2), ('loc2', 0.2), ('loc3', 0.0), ('loc4', 0.0), ('loc5', 0.0), ('loc6', -0.2), ('loc7', None), ('loc8', None), ('loc9', 0.0), ('loc10', 0.2), ('loc11', 0.4), ('loc12', -0.2), ('loc13', -0.4), ('loc14', 0.0), ('corrAns', 'space')])
+48.4222 	EXP 	trial1Fix: autoDraw = False
+48.4222 	EXP 	trial1L11: autoDraw = False
+48.4222 	EXP 	trial1L12: autoDraw = False
+48.4222 	EXP 	trial1L21: autoDraw = False
+48.4222 	EXP 	trial1L22: autoDraw = False
+48.4222 	EXP 	trial1T11: autoDraw = False
+48.4222 	EXP 	trial1T12: autoDraw = False
+48.4222 	EXP 	trial1TT: autoDraw = False
+48.4222 	EXP 	trial1L11: pos = array([0.2, 0.2])
+48.4222 	EXP 	trial1L12: pos = array([0., 0.])
+48.4222 	EXP 	trial1L21: pos = array([ 0. , -0.2])
+48.4222 	EXP 	trial1L22: pos = array([nan, nan])
+48.4222 	EXP 	trial1T11: pos = array([0. , 0.2])
+48.4222 	EXP 	trial1T12: pos = array([ 0.4, -0.2])
+48.4222 	EXP 	trial1TT: pos = array([-0.4,  0. ])
+48.4222 	EXP 	trial1L11: autoDraw = True
+48.4222 	EXP 	trial1L12: autoDraw = True
+48.4222 	EXP 	trial1L21: autoDraw = True
+48.4222 	EXP 	trial1L22: autoDraw = True
+48.4222 	EXP 	trial1T11: autoDraw = True
+48.4222 	EXP 	trial1T12: autoDraw = True
+48.4222 	EXP 	trial1TT: autoDraw = True
+49.6585 	DATA 	Keypress: escape
+50.1213 	EXP 	window1: mouseVisible = True
